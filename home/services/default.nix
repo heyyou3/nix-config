@@ -1,0 +1,4 @@
+[
+  ./dunst
+  ./gpg-agent
+]
