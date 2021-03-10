@@ -13,14 +13,6 @@
     xserver = {
       enable = true;
 
-#       extraLayouts.us-custom = {
-#         description = "US layout with custom hyper keys";
-#         languages   = [ "eng" ];
-#         symbolsFile = ./us-custom.xkb;
-#       };
-#
-#       layout = "us-custom";
-
       libinput = {
         enable = true;
         touchpad.disableWhileTyping = true;
@@ -42,7 +34,6 @@
       };
 
       xkbOptions = "caps:ctrl_modifier";
-
     };
   };
 
