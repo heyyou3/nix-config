@@ -78,9 +78,9 @@ in
   xdg.enable = true;
 
   home = {
-    username      = "gvolpe";
-    homeDirectory = "/home/gvolpe";
-    stateVersion  = "21.03";
+    username      = "heyyou";
+    homeDirectory = "/home/heyyou";
+    stateVersion  = "20.09";
 
     packages = defaultPkgs ++ gnomePkgs ++ haskellPkgs ++ xmonadPkgs;
 
